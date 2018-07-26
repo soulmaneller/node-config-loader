@@ -1,0 +1,25 @@
+{
+  "name": "@soulmaneller-dev/config-loader",
+  "version": "0.0.1",
+  "description": "Description",
+  "main": "index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "license": "ISC",
+  "keywords": [
+    "config",
+    "configuration",
+    "loader"
+  ],
+  "author": "Sitthidet Chaksu <oxoox22@gmail.com>",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/soulmaneller/node-config-loader"
+}
